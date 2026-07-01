@@ -13,7 +13,7 @@
 }
 
 body{
-    background-color: var(--cor1);
+    background-color: #000004;
     padding: 0px;
     margin: 0px;
 }
@@ -27,15 +27,7 @@ header {
     padding: 1.2em 4em;
 }
 
-
-.logo a {
-    font-family: var(--font-nav);
-    color: white;
-    font-size: 2.4em;
-    text-decoration: none;
-}
-
-.nav-links{
+.nav-links {
     list-style: none;
 }
 
@@ -60,8 +52,10 @@ header {
 
 .nav-search {
     border-radius: 20px;
-    background-color: #111827;
+    border: 2px solid #101020;
+    background-color: #0A0A12;
     padding: 10px 10px;
+    box-shadow: 1px 1px 8px #101020;
 }
 
 .nav-search form {
@@ -71,7 +65,7 @@ header {
 }
 
 .nav-search input {
-    background-color: #111827;
+    background-color: #0A0A12;
     border: none;
     outline: none;
     padding-left: 2%;
@@ -81,7 +75,7 @@ header {
 }
 
 .nav-search button {
-    background-color: #111827;
+    background-color: #0A0A12;
     border: none;
     padding: 0;
     margin: 0;
@@ -99,6 +93,7 @@ header {
     align-items: center;
 }
 
+
 .nav-buttons .cart {
     width: 103%;
 }
@@ -114,4 +109,219 @@ header {
 .nav-login a:hover {
     color: #7C3AED;
     transition: 0.5s;
+}
+
+/* HERO */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-nav);
+
+    margin-top: 1em;
+}
+
+.hero-banner h1{
+    color: white;
+    margin-left: 10%;
+    line-height: 0.2em;
+    margin-top: 0;
+    font-size: 5em;
+}
+
+.hero-banner h2 {
+    color: white;
+    margin-left: 10%;
+    margin-bottom: 0;
+    margin-top: 5%;
+    font-size: 2em;
+    font-weight: lighter;
+    
+}
+
+.hero-banner p {
+    color: white;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+
+.hero .hero-buttons a{
+    text-decoration: none;
+    color: white;
+    font-family: var(--font-nav);
+}
+
+.hero .hero-buttons .purple {
+    background-color: #7C3AED;
+    display: inline-block;
+    margin-left: 10%;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid rgba(165, 165, 165, 0.658);
+}
+
+.hero .hero-buttons .opaque {
+    background-color: #0000006e;
+    display: inline-block;
+    margin-left: 0.5%;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+
+.hero-banner {
+    background-image: url(../images/hero.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 30em;
+}
+
+.destaque {
+    background-color: #020109;
+    border-radius: 15px;
+    margin-top: 3em;
+    width: 67%;
+    
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.destaque a {
+    text-decoration: none;
+}
+
+.carousel {
+    width: 100%;
+    margin: 1.1em auto;
+    display: flex;
+    scroll-behavior: smooth;
+    
+    overflow-x: auto;
+    
+}
+
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel::scroll-button(left) {
+    content: '<';
+    color: white;
+    font-size: 1.5em;
+    font-weight: bolder;
+    background-color: rgba(26, 26, 26, 0.342);
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 0.2em 0.5em;
+    position: absolute;
+    margin-left: -1%;
+    cursor: pointer;
+
+}
+
+.carousel::scroll-button(right) {
+    content: '>';
+    color: white;
+    font-size: 1.5em;
+    font-weight: bolder;
+    background-color: rgba(26, 26, 26, 0.342);
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 0.2em 0.5em;
+    position: absolute;
+    margin-left: 66%;
+    cursor: pointer;
+
+}
+
+.card {
+    background-color: #090A14;
+    flex: 0 0 15em;
+    height: 14em;
+    border-radius: 10px;
+    border: 2px solid #101020;
+    box-shadow: 1px 1px 8px #101020;
+    display: flex;
+    flex-direction: column;
+    
+
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    
+
+    font-family: var(--font-nav);
+
+}
+
+.card img {
+    width: 100%;
+    height: 60%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    margin-left: 0.3em;
+    margin-top: 0px;
+}
+
+.card .info-top {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 0px;
+    
+}
+
+.card h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+
+    display: inline-block;
+}
+
+.card .fav {
+    background-color: #090A14;
+    color: #000004a2;
+    font-size: 2em;
+    border: none;
+    border-radius: 50%;
+    padding: 0.5em 0.5em;
+    padding: 0px;
+    margin: 0px;
+    margin-right: 0.3em;
+}
+
+.card .info-bot {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: -10%;
+}
+
+.card .game-price {
+    color: white;
+}
+
+.card .game-discount {
+    color: white;
+    background-color: #9333EA;
+    padding: 0.2em;
+    border-radius: 5px;
+    margin-right: 0.3em;
 }
