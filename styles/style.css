@@ -20,6 +20,9 @@ body{
     background-color: #000004;
     padding: 0px;
     margin: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 /* MENU */
