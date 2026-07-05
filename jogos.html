@@ -19,9 +19,9 @@
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="jogos.html">Jogos</a></li>
                     <li><a href="#">Comunidade</a></li>
-                    <li><a href="#">Lançamentos</a></li>
-                    <li><a href="#">Contato</a></li>
-                    <li><a href="#">Projeto</a></li>
+                    <li><a href="noticias.html">Notícias</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="projeto.html">Projeto</a></li>
                 </ul>
             </nav>
 
@@ -44,7 +44,7 @@
             </div>
 
             <div class="nav-login">
-                    <a href="#">Entrar</a>
+                    <a href="cadastro.html">Entrar</a>
             </div>
 
     </header>
@@ -52,20 +52,218 @@
     <main>
         <div class="main-jogos">
             <div class="main-jogos-start">
-                <h1>Todos os Jogos</h1>
-                <p>
-                    <span class="purple">Inicio</span> > Jogos
-                </p>
+                <div class="start-text">
+                    <h1>Todos os Jogos</h1>
+                    <p>
+                        <span class="purple">Inicio</span> > Jogos
+                    </p>
+                </div>
             </div>
 
             <div class="main-jogos-center">
                 <div class="jogos-filter">
+                    <h2>Filtrar por</h2>
+                    <hr>
+                    <h2>Categorias</h2>
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="acao">
+                            Ação
+                        </li>
 
+                        <li>
+                            <input type="checkbox" name="aventura">
+                            Aventura
+                        </li>
+
+                        <li>
+                            <input type="checkbox" name="rpg">
+                            RPG
+                        </li>
+
+                        <li>
+                            <input type="checkbox" name="estrategia">
+                            Estratégia
+                        </li>
+
+                        <li>
+                            <input type="checkbox" name="sport">
+                            Esportivos
+                        </li>
+
+                        <li>
+                            <input type="checkbox" name="terror">
+                            Terror
+                        </li>
+                    </ul>
+                    <hr>
+                    <h2>Faixa de preço</h2>
+                    
+                        <input class="jogos-range" type="range" min="0" max="500">
+
+                        <div class="range-bot">
+                            <p>
+                                R$ 0
+                            </p>
+                            <p>
+                                R$ 500
+                            </p>
+                        </div>
+                    <hr>
+                    <h2>Ordenar por</h2>
+                    <select class="jogos-select" name="order" id="order">
+                        <option value="menor_preco">Menor Preço</option>
+                        <option value="maior_preco">Maior Preço</option>
+                        <option value="avaliacao">Maior Avaliação</option>
+                        <option value="lancamento">Lançamento</option>
+                    </select>
+                    
+                </div>
+
+                <div class="jogos-lista">
+                    <div class="jogos-linha1">
+
+                       <div class="card grande">
+                        
+                            <a href="lies_of_p.html">
+                                <img src="images/game_banners/lies_of_p.jpg" alt="">
+                                <div class="info">
+                                    <div class="info-top">
+                                        <h1>Lies of P</h1>
+                                        <button class="fav">
+                                            &hearts;
+                                        </button>
+                                    </div>
+                                    <div class="info-bot">
+                                        <span class="game-price">R$98,49</span>
+                                        <span class="game-discount">60%</span>
+                                    </div>
+                                </div>
+                            </a>
+                        
+                    </div>
+
+                    <div class="card grande">
+                        <a href="hollow_knight.html">
+                            <img src="images/game_banners/hollow_knight.jpg" alt="">
+                            <div class="info">
+                                <div class="info-top">
+                                    <h1>Hollow Knight</h1>
+                                    <button class="fav">
+                                        &hearts;
+                                    </button>
+                                </div>
+                                <div class="info-bot">
+                                    <span class="game-price">R$ 23,49</span>
+                                    <span class="game-discount">50%</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="card grande">
+                        <a href="devil_may_cry.html">
+                            <img src="images/game_banners/devil_may_cry.jpg" alt="">
+                            <div class="info">
+                                <div class="info-top">
+                                    <h1>Devil May Cry</h1>
+                                    <button class="fav">
+                                        &hearts;
+                                    </button>
+                                </div>
+                                <div class="info-bot">
+                                    <span class="game-price">R$19,35</span>
+                                    <span class="game-discount">85%</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+
+
+                    
+                    </div>
+
+                    <div class="jogos-linha2">
+
+                        <div class="card grande">
+                        <a href="sekiro.html">
+                            <img src="images/game_banners/sekiro.jpg" alt="">
+                            <div class="info">
+                                <div class="info-top">
+                                    <h1>Sekiro</h1>
+                                    <button class="fav">
+                                        &hearts;
+                                    </button>
+                                </div>
+                                <div class="info-bot">
+                                    <span class="game-price">R$137,00</span>
+                                    <span class="game-discount">50%</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="card grande">
+                        <a href="clair_obscur.html">
+                            <img src="images/game_banners/clair_obscure.webp" alt="">
+                            <div class="info">
+                                <div class="info-top">
+                                    <h1>Clair Obscur</h1>
+                                    <button class="fav">
+                                        &hearts;
+                                    </button>
+                                </div>
+                                <div class="info-bot">
+                                    <span class="game-price">R$159,20</span>
+                                    <span class="game-discount">20%</span>
+                                </div>
+                            </div>
+                        </a>
+                </div>
+
+                <div class="card grande">
+                    
+                    <a href="stardew_valley.html">
+                        <img src="images/game_banners/stardew_valley.jpg" alt="">
+                        <div class="info">
+                            <div class="info-top">
+                                <h1>Stardew Valley</h1>
+                                <button class="fav">
+                                    &hearts;
+                                </button>
+                            </div>
+                            <div class="info-bot">
+                                <span class="game-price">R$14,99</span>
+                                <span class="game-discount">40%</span>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+
+                    </div>
                 </div>
             </div>
 
             <div class="main-jogos-bottom">
+                <span class="purple-a">
+                    <a href="#">
+                        1
+                    </a>
+                </span>
 
+                <a href="#">
+                    2
+                </a>
+
+                <a href="#">
+                    3
+                </a>
+
+                <a href="#">
+                    >
+                </a>
             </div>
 
 

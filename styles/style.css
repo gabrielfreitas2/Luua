@@ -516,18 +516,395 @@ footer a {
 
 .main-jogos {
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: center;
 
     font-family: var(--font-nav);
     color: white;
+
+    margin-bottom: 3em;
 }
 
-.main-jogos-start > p > .purple {
+.main-jogos-start {
+    display: flex;
+    width: 70%;
+}
+
+.start-text {
+    align-self: flex-start;
+}
+
+.start-text > p > .purple {
     color: var(--cor4);
     font-weight: bold;
 }
 
-.main-jogos-start h1 {
-    
+.main-jogos-center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-jogos-center ul {
+    list-style: none;
+    margin-left: -2em;
+}
+
+.jogos-filter {
+    background-color: #0C0C15;
+    border: 2px solid #101020;
+    box-shadow: 1px 1px 8px #101020;
+    padding: 1.6em;
+    border-radius: 10px;
+    line-height: 1.7em;
+}
+
+.jogos-filter hr {
+    border: none;
+    background-color: #18182b;
+    height: 0.2em;
+    border-radius: 5px;
+}
+
+.jogos-range{
+    accent-color: var(--cor4);
+    width: 100%;
+}
+
+.range-bot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jogos-select {
+    border: none;
+    background-color: #080810;
+    border: 2px solid #101020;
+    color: white;
+    font-family: var(--font-nav);
+    padding: 0.6em;
+}
+
+.jogos-lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.jogos-linha1 {
+    display: flex;
+}
+
+.jogos-linha2 {
+    display: flex;
+    margin-top: 1em;
+}
+
+.grande {
+    height: 20em;
+    flex: 0 0 20em;
+}
+
+.grande img {
+    height: 70%;
+}
+
+.grande a{
+    text-decoration: none;
+}
+
+.main-jogos-bottom {
+    margin-top: 2em;
+}
+
+.main-jogos-bottom a {
+    color: white;
+    font-family: var(--font-nav);
+    text-decoration: none;
+    padding: 0.9em;
+    border: 2px solid rgba(165, 165, 165, 0.76);
+    border-radius: 5px;
+    margin-right: 0.4em;
+    font-weight: bolder;
+}
+
+.purple-a a {
+    border: 2px solid var(--cor4);
+}
+
+/* PRODUTO */
+
+.main-prod {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+
+.main-prod-top {
+    display: flex;
+}
+
+.prod-top-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-top {
+    background-size: cover;
+    background-position: center;
+    width: 35em;
+    height: 25em;
+    border-radius: 10px;
+    border: 2px solid #101020;
+    box-shadow: 1px 1px 8px #101020;
+}
+
+.img-bot {
+    display: flex;
+}
+
+.img-s {
+    background-size: cover;
+    background-position: center;
+    width: 8em;
+    height: 5em;
+    margin-right: 1em;
+    margin-top: 1em;
+    border-radius: 10px;
+    border: 2px solid #101020;
+    box-shadow: 1px 1px 8px #101020;
+}
+
+.lop {
+    background-image: url(../images/game_banners/lies_of_p/lop1.jpg);
+}
+
+.lop1 {
+    background-image: url(../images/game_banners/lies_of_p/lop2.jpg);
+}
+
+.lop2 {
+    background-image: url(../images/game_banners/lies_of_p/lop3.jpg);
+}
+
+.lop3 {
+    background-image: url(../images/game_banners/lies_of_p/lop4.jpg);
+}
+
+.lop4 {
+    background-image: url(../images/game_banners/lies_of_p/lop5.jpg);
+}
+
+.hk{
+    background-image: url(../images/game_banners/hollow_knight/hk.jpg);
+}
+
+.hk1 {
+    background-image: url(../images/game_banners/hollow_knight/hk1.jpg);
+}
+
+.hk2 {
+    background-image: url(../images/game_banners/hollow_knight/hk2.jpg);
+}
+
+.hk3 {
+    background-image: url(../images/game_banners/hollow_knight/hk3.jpg);
+}
+
+.hk4 {
+    background-image: url(../images/game_banners/hollow_knight/hk4.jpg);
+}
+
+.dmc {
+    background-image: url(../images/game_banners/devil_may_cry/dmc.jpg);
+}
+
+.dmc1 {
+    background-image: url(../images/game_banners/devil_may_cry/dmc1.jpg);
+}
+
+.dmc2 {
+    background-image: url(../images/game_banners/devil_may_cry/dmc2.jpg);
+}
+
+.dmc3 {
+    background-image: url(../images/game_banners/devil_may_cry/dmc3.jpg);
+}
+
+.dmc4 {
+    background-image: url(../images/game_banners/devil_may_cry/dmc4.jpg);
+}
+
+.sek {
+    background-image: url(../images/game_banners/sekiro/sek.png);
+}
+
+.sek1 {
+    background-image: url(../images/game_banners/sekiro/sek1.jpg);
+}
+
+.sek2 {
+    background-image: url(../images/game_banners/sekiro/sek2.jpg);
+}
+
+.sek3 {
+    background-image: url(../images/game_banners/sekiro/sek3.jpg);
+}
+
+.sek4 {
+    background-image: url(../images/game_banners/sekiro/sek4.jpg);
+}
+
+.co {
+    background-image: url(../images/game_banners/clair_obscure/co.avif);
+}
+
+.co1 {
+    background-image: url(../images/game_banners/clair_obscure/co1.jpg);
+}
+
+.co2 {
+    background-image: url(../images/game_banners/clair_obscure/co2.jpg);
+}
+
+.co3 {
+    background-image: url(../images/game_banners/clair_obscure/co3.jpg);
+}
+
+.co4 {
+    background-image: url(../images/game_banners/clair_obscure/co4.jpg);
+}
+
+.sv {
+    background-image: url(../images/game_banners/stardew_valley/sv.jpg);
+}
+
+.sv1 {
+    background-image: url(../images/game_banners/stardew_valley/sv1.jpg);
+}
+
+.sv2 {
+    background-image: url(../images/game_banners/stardew_valley/sv2.jpg);
+}
+
+.sv3 {
+    background-image: url(../images/game_banners/stardew_valley/sv3.jpg);
+}
+
+.sv4 {
+    background-image: url(../images/game_banners/stardew_valley/sv4.jpg);
+}
+
+.prod-text {
+    font-family: var(--font-nav);
+    color: white;
+    text-align: justify;
+}
+
+.prod-text h2 {
+    display: inline-block;
+    font-weight: normal;
+    background-color: #13131D;
+    margin: 0px 0.5em 0px 0px;
+    line-height: 1em;
+    font-size: 1.2em;
+    padding: 0.4em;
+    border-radius: 10px;
+    border: 2px solid #101020;
+    box-shadow: 1px 1px 8px #101020;
+}
+
+.prod-text h1 {
+    font-weight: 600;
+}
+
+.prod-text p {
+    color: gray;
+}
+
+.prod-text-price {
+    color: gray;
+    font-size: 60%;
+    text-decoration: line-through;
+}
+
+.prod-text-discount {
+    background-color: var(--cor4);
+    padding: 0.2em;
+    font-size: 0.6em;
+    border-radius: 10px;
+}
+
+.green {
+    color: greenyellow;
+}
+
+.prod-estoque {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.prod-add-cart {
+    background-color: var(--cor4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    width: 75%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.prod-add-cart img {
+    padding: 0px;
+    margin-right: 0.5em;
+}
+
+.prod-add-list {
+    background-color: #13131D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    width: 75%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.prod-add-list img {
+    padding: 0px;
+    margin-right: 0.5em;
+}
+
+.prod-desc {
+    display: flex;
+    justify-content: space-between;
+    line-height: 2.5em;
+}
+
+.main-prod-bot {
+    color: white;
+    font-family: var(--font-nav);
+    text-align: justify;
+    padding: 5em 5em 2em 5em;
+    width: 80%;
 }
