@@ -20,9 +20,6 @@ body{
     background-color: #000004;
     padding: 0px;
     margin: 0px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
 }
 
 /* MENU */
@@ -200,7 +197,8 @@ header {
     margin-top: 1em;
 
     display: flex;
-    justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: center;
     align-items: center;
 }
@@ -262,7 +260,8 @@ header {
     'text1 text2'
     'car car'
     ;
-    justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
     align-items: center;
 }
 
@@ -523,6 +522,9 @@ footer a {
     justify-content: flex-start;
     align-items: center;
 
+    margin-left: auto;
+    margin-right: auto;
+
     font-family: var(--font-nav);
     color: white;
 
@@ -532,7 +534,11 @@ footer a {
 .main-jogos-start {
     display: flex;
     width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+
 
 .start-text {
     align-self: flex-start;
@@ -547,6 +553,9 @@ footer a {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .main-jogos-center ul {
@@ -561,6 +570,8 @@ footer a {
     padding: 1.6em;
     border-radius: 10px;
     line-height: 1.7em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .jogos-filter hr {
@@ -594,6 +605,8 @@ footer a {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    margin-left: auto;
+margin-right: auto;
 }
 
 .jogos-linha1 {
