@@ -1159,6 +1159,15 @@ margin-right: auto;
     font-size: 1.3em;
 }
 
+.projeto-article hr {
+    border: none;
+    border: 1px solid #242c3f;
+}
+
+.projeto-article ul {
+    font-size: 1em;
+}
+
 .projeto-anchor {
     display: flex;
     flex-direction: column;
