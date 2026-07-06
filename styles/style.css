@@ -16,6 +16,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #000004;
     padding: 0px;
@@ -923,4 +927,257 @@ margin-right: auto;
     text-align: justify;
     padding: 5em 5em 2em 5em;
     width: 80%;
+}
+
+.main-news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-family: var(--font-nav);
+    color: white;
+
+    margin: 0.5em auto 3em auto; 
+}
+
+.news-title {
+    display: flex;
+    width: 55%;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: flex-start; 
+    text-align: left;
+    line-height: 0.3em;
+}
+
+.news-title .purple {
+    color: var(--cor4);
+    font-weight: bold;
+    width: 80%;
+}
+
+.news-title h1 {
+    font-size: 2.5em;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0px auto 0px auto;
+}
+
+.news-card {
+    width: 80%;
+}
+
+.news-card a {
+    background-color: #080a138e;
+    border: 2px solid #101020;
+    box-shadow: 1px 1px 8px #101020;
+    width: 80%;
+    border-radius: 10px;
+    padding: 0.9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0px auto 1em auto;
+}
+
+.news-card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 1em;
+}
+
+.news-card a {
+    text-decoration: none;
+}
+
+.news-card h1 {
+    color: white;
+    font-size: 1.5em;
+    line-height: 1em;
+}
+
+.news-card p {
+    color: gray;
+    margin: 0;
+}
+
+.news-card img {
+    width: 15em;
+    border-radius: 10px;
+    border: 3px solid #101020;
+    box-shadow: 1px 1px 8px #101020;
+}
+
+.main-contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+
+    margin: 2em auto 2em auto;
+    
+
+    color: gray;
+
+    font-family: var(--font-nav);
+}
+
+.contato-title {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: flex-start;
+    text-align: left;
+    
+    
+    font-family: var(--font-nav);
+    color: white; 
+}
+
+.contato-title p {
+    color: gray;
+}
+
+.contato-form {
+    width: 100%;
+    margin: 0px auto 0px auto;
+}
+
+.contato-form form {
+    width: 100%;
+    margin: 0px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contato-txt {
+    width: 80%;
+    margin: 0px auto 2em auto;
+    
+}
+
+.contato-txt input {
+    background-color: #090C14;
+    border: 2px solid #101020;
+    box-shadow: 1px 1px 8px #101020;
+    border-radius: 8px;
+    margin-top: 0.2em;
+    padding: 1em;
+    width: 100%;
+
+    font-family: var(--font-nav);
+    font-size: 1em;
+    color: white;
+}
+
+.contato-txt label, .contato-txta label {
+    color: gray;
+    font-weight: bold;
+}
+
+.contato-txta {
+    width: 80%;
+    height: 30%;
+    margin: 0px auto 2em auto;
+}
+
+.contato-txta textarea {
+    background-color: #080C14;
+    border: 2px solid #101020;
+    box-shadow: 1px 1px 8px #101020;
+    width: 100%;
+
+    padding: 1em ;
+
+    font-family: var(--font-nav);
+    font-size: 1em;
+    color: white;
+    
+    resize: vertical;
+}
+
+.contato-submit {
+    width: 80%;
+    margin: 0px auto 2em auto;
+}
+
+.contato-submit input {
+    background-color: #10131C;
+    border: 2px solid #101020;
+    box-shadow: 1px 1px 8px #101020;
+    border: none;
+    border-radius: 10px;
+    margin-right: 0.5em;
+    padding: 1em;
+    width: 30%;
+    font-family: var(--font-nav);
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+}
+
+.contato-submit .roxo {
+    background-color: var(--cor3);
+}
+
+.main-projeto {
+    color: white;
+    font-family: var(--font-nav);
+    border-radius: 15px;
+    padding: 1em;
+    width: 100%;
+    margin: 2em auto 2em auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.projeto-article {
+    background-color: #070B14;
+    border: 2px solid #101020;
+    box-shadow: 1px 1px 8px #101020;
+    border-radius: 15px;
+    padding: 1em;
+    width: 50%;
+    margin-left: 3em;
+}
+
+.projeto-article p {
+    font-size: 1.3em;
+}
+
+.projeto-anchor {
+    display: flex;
+    flex-direction: column;
+
+    position: sticky;
+    top: 3em;
+}
+
+.projeto-anchor a {
+    text-decoration: none;
+
+    font-family: var(--font-nav);
+    color: white;
+    padding: 1em;
+
+    margin-bottom: 0.6em;
+
+    background-color: #070A15;
+    border: 2px solid #101020;
+    box-shadow: 1px 1px 8px #101020;
+    border-radius: 15px;
 }
