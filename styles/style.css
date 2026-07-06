@@ -1190,3 +1190,202 @@ margin-right: auto;
     box-shadow: 1px 1px 8px #101020;
     border-radius: 15px;
 }
+
+.main-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+    margin: 2em auto 3em auto;
+
+    font-family: var(--font-nav);
+
+    width: 80%;
+}
+
+.login-title {
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+.login-title h1 {
+    color: white;
+    
+}
+
+.login-title p {
+    color: gray;
+}
+
+.login-form label {
+    color: gray;
+    font-size: 1.2em;
+}
+
+.login-form form, .login-row1, .login-form {
+    width: 100%;
+}
+
+.login-text {
+    background-color: #090C14;
+    border: 2px solid #101020;
+    box-shadow: 1px 1px 8px #101020;
+    border-radius: 8px;
+
+    color: white;
+
+    padding: 1em;
+    
+    margin-bottom: 1.5em;
+
+    width: 100%;
+}
+
+.login-row3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+}
+
+.login-row3 div {
+    width: 100%;
+}
+
+.login-row3 div input {
+    width: 99%;
+}
+
+.login-row4 {
+    display: flex;
+}
+
+.login-row4 div {
+    width: 100%;
+}
+
+.login-row4 div input {
+    width: 99%;
+}
+
+.login-row5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+}
+
+.login-row5 div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login-date {
+    background-color: #090C14;
+    border: 2px solid #101020;
+    box-shadow: 1px 1px 8px #101020;
+    border-radius: 8px;
+    padding: 1em;
+    color: gray;
+    
+
+    width: 50%;
+}
+
+.ayuda {
+    margin-top: -1.2em;
+}
+
+.login-text .cpf {
+    width: 50%;
+}
+
+.login-row6 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+}
+
+.login-row6 div {
+    width: 100%;
+}
+
+.login-row6 div input {
+    width: 99%;
+}
+
+.sex-radio {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.sex-radio label {
+    margin-left: -6em;
+}
+
+.login-select {
+    background-color: #090C14;
+    border: 2px solid #101020;
+    box-shadow: 1px 1px 8px #101020;
+    border-radius: 8px;
+    padding: 1em;
+    color: gray;
+
+    width: 99%;
+    
+}
+
+
+
+.contato-txta {
+    width: 80%;
+    height: 30%;
+    margin: 0px auto 2em auto;
+}
+
+.login-txta textarea {
+    background-color: #080C14;
+    border: 2px solid #101020;
+    box-shadow: 1px 1px 8px #101020;
+    width: 100%;
+
+    padding: 1em ;
+
+    font-family: var(--font-nav);
+    font-size: 1em;
+    color: white;
+    
+    resize: vertical;
+}
+
+.login-terms a {
+    text-decoration: none;
+    color: var(--cor4);
+}
+
+.login-submit input {
+    background-color: #10131C;
+    border: 2px solid #101020;
+    box-shadow: 1px 1px 8px #101020;
+    border: none;
+    border-radius: 10px;
+    margin-right: 0.5em;
+    margin-top: 1em;
+    padding: 1em;
+    width: 25%;
+    font-family: var(--font-nav);
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+}
+
+.login-submit .roxo {
+    background-color: var(--cor3);
+}

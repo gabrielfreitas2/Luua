@@ -51,8 +51,121 @@
 
     <main>
         <div class="main-login">
+            <div class="login-title">
+                <h1>Cadastro</h1>
+
+                <p>
+                    Crie sua conta e faça parte da comunidade LUUA!
+                </p>
+            </div>
+
+            <div class="login-form">
+            <form action="email@email.com" method="post">
+                <div class="login-row1">
+                    <label for="ilogin_name">Nome completo</label>
+                    <input class="login-text" type="text" name="login_nome" id="ilogin_nome" placeholder="Digite seu nome">
+                </div>
+
+                <div class="login-row2">
+                    <label for="ilogin_add">Endereço completo</label>
+                    <input class="login-text" type="text" name="login_add" id="ilogin_add" placeholder="Bairro, Rua, Número...">
+                </div>
+
+                <div class="login-row3">
+                    <div>
+                        <label for="ilogin_city">Cidade</label><br />
+                        <input class="login-text" type="text" name="login_city" id="ilogin_city" placeholder="Sua cidade...">
+                    </div>
+
+                    <div>
+                        <label for="ilogin_state">Estado</label><br />
+                        <input class="login-text" type="text" name="login_state" id="ilogin_state" placeholder="Seu estado...">
+                    </div>
+
+                    <div>
+                        <label for="ilogin_state">CEP</label><br />
+                        <input class="login-text" type="text" name="login_state" id="ilogin_state" placeholder="00000-000">
+                    </div>
+
+                </div>
+
+                <div class="login-row4">
+                        <div>
+                            <label for="ilogin_tel">Telefone residencial</label><br />
+                            <input class="login-text" type="text" name="login_tel" id="ilogin_tel" placeholder="(00) 00000-0000">
+                        </div>
+
+                        <div>
+                            <label for="ilogin_state">Profissão</label><br />
+                            <input class="login-text" type="text" name="login_state" id="ilogin_state" placeholder="Digite sua profissão">
+                        </div>
+                </div>
+
+                <div class="login-row5">
+                    <div class="ayuda">
+                        <label for="ilogin-birth">Data de nascimento</label>
+                        <input class="login-date" type="date" name="login-birth" id="ilogin-birth">
+                    </div>
+                    <div>
+                        <label for="ilogin_cpf">CPF</label>
+                        <input class="login-text cpf" type="text" name="login_cpf" id="ilogin_cpf" placeholder="000.000.000-00">
+                    </div>
+                </div>
+
+                <div class="login-row6">
+                    <div>
+                        <label for="ilogin_city">E-mail</label><br />
+                        <input class="login-text" type="email" name="login_city" id="ilogin_city" placeholder="seu@email.com">
+                    </div>
+
+                    <div class="ayuda">
+                        <label for="ilogin_civil">Estado civil</label><br />
+                        <select class="login-select" name="login_civil" id="ilogin_civil">
+                            <option value="solteiro">Solteiro</option>
+                            <option value="casado">Casado</option>
+                            <option value="divorciado">Divorciado</option>
+                            <option value="viuvo">Viúvo</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="">Sexo</label>
+
+                                    
+                                            <div class="sex-radio">
+                                                <input type="radio" name="masculino" id="imasculino">
+                                                <label for="imasculino">Masculino</label>
+                                                <input type="radio" name="masculino" id="imasculino">
+                                                <label for="Feminino">Feminino</label>
+                                            </div>
+                                        
+
+                    </div>
+
+                </div>
+
+                <div class="login-txta">
+                    <label for="ilogin_obs">Observaçõs</label>
+                    <textarea name="login_obs" id="ilogin_obs" placeholder="Escreva algo (opcional)"></textarea>
+                </div>
+
+                <div class="login-terms">
+                    <input type="checkbox" name="login_terms" id="ilogin_terms">
+                    <label for="ilogin_terms"> Li e aceito os <a href="#">termos de uso</a> e <a href="#">política de privacidade</a>.</label>
+                </div>
+
+                <div class="login-submit">
+                    <input class="roxo" type="submit" value="Cadastrar">
+                    <input type="reset" value="Limpar">
+                </div>
+
+            </form>
+        </div>
 
         </div>
+
+        
+
     </main>
 
     <footer>
