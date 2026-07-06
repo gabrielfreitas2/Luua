@@ -926,6 +926,7 @@ margin-right: auto;
     font-family: var(--font-nav);
     text-align: justify;
     padding: 5em 5em 2em 5em;
+    margin-top: -3.3em;
     width: 80%;
 }
 
