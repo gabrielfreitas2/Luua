@@ -84,7 +84,7 @@
 
                     <div>
                         <label for="ilogin_state">CEP</label><br />
-                        <input class="login-text" type="text" name="login_state" id="ilogin_state" placeholder="00000-000">
+                        <input class="login-text" type="text" name="login_state" id="ilogin_state" placeholder="00000-000" pattern="^\d{5}-\d{3}$">
                     </div>
 
                 </div>
@@ -92,7 +92,7 @@
                 <div class="login-row4">
                         <div>
                             <label for="ilogin_tel">Telefone residencial</label><br />
-                            <input class="login-text" type="text" name="login_tel" id="ilogin_tel" placeholder="(00) 00000-0000">
+                            <input class="login-text" type="text" name="login_tel" id="ilogin_tel" placeholder="(00) 00000-0000" pattern="^\(\d{2}\)\s\d{5}-\d{4}$">
                         </div>
 
                         <div>
@@ -108,14 +108,14 @@
                     </div>
                     <div>
                         <label for="ilogin_cpf">CPF</label>
-                        <input class="login-text cpf" type="text" name="login_cpf" id="ilogin_cpf" placeholder="000.000.000-00">
+                        <input class="login-text cpf" type="text" name="login_cpf" id="ilogin_cpf" placeholder="000.000.000-00" pattern="^\d{3}\.\d{3}\.\d{3}-\d{2}$">
                     </div>
                 </div>
 
                 <div class="login-row6">
                     <div>
                         <label for="ilogin_city">E-mail</label><br />
-                        <input class="login-text" type="email" name="login_city" id="ilogin_city" placeholder="seu@email.com">
+                        <input class="login-text" type="email" name="login_city" id="ilogin_city" placeholder="seu@email.com" pattern="^[^@\s]+@[^@\s]+\.[^@\s]+$">
                     </div>
 
                     <div class="ayuda">
